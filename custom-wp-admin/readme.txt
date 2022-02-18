@@ -3,7 +3,7 @@
 Contributors: Krishan Kant Sharma, sharmakks
 Tags: rename, login, wp-login, wp-login.php, custom login url, Hide wp-admin, Hide wp-login.php
 Requires at least: 4.1
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 7.0
 Stable tag: 1.0.0
 License: GPLv2 or later
