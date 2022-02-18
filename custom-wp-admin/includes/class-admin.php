@@ -271,7 +271,7 @@ if (!class_exists('CTLP_CUSTOM_Admin')) :
                     $redirect_to = admin_url();
                     $requested_redirect_to = '';
                     if (isset($_REQUEST['redirect_to'])) {
-                        $requested_redirect_to = esc_url($_REQUEST['redirect_to']);
+                        $requested_redirect_to = sanitize_url($_REQUEST['redirect_to']);
                     }
                     if (is_user_logged_in()) {
                         $user = wp_get_current_user();
